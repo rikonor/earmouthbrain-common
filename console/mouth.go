@@ -17,5 +17,5 @@ func NewConsoleMouth() *ConsoleMouth {
 }
 
 func (m *ConsoleMouth) OutputToConsole(msg emb.Message) {
-	fmt.Println("I have this to say:", msg)
+	fmt.Println(msg)
 }

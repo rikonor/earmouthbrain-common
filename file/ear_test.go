@@ -45,7 +45,7 @@ func TestFileEarCanReceiveFromFile(t *testing.T) {
 	time.Sleep(1 * time.Millisecond)
 
 	if capturedMessage != "Test" {
-		t.Error("Failed to listen to file:", []byte(capturedMessage))
+		t.Error("Failed to listen to file")
 	}
 }
 
